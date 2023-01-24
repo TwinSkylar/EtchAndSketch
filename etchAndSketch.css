@@ -1,10 +1,15 @@
 .box{
     width: 40px;
     height: 40px;
-    background-image: linear-gradient(white);
+    background-image: linear-gradient(white,white);
+    border:1px solid black;
 }
 
-.grid-container{
+.coloredBox{
+    background-image: linear-gradient(black, black);
+}
+
+.gridContainer{
     display:flex;
     flex:0,0,0;
     justify-content: left;
